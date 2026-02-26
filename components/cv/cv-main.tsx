@@ -9,16 +9,16 @@ export function CvMain() {
   const { experience, education, languages } = main;
 
   return (
-    <div className="space-y-5 text-[11.5px] leading-[1.6] text-black">
+    <div className="space-y-5 text-[11px] sm:text-[11.5px] leading-[1.6] text-black">
       <section>
-        <h2 className="text-[13px] font-bold uppercase tracking-widest text-black mb-3 border-b border-black/10 pb-1">
+        <h2 className="text-[12px] sm:text-[13px] font-bold uppercase tracking-widest text-black mb-3 border-b border-black/10 pb-1">
           {experience.title}
         </h2>
         <div className="space-y-4">
           {experience.jobs.map((job) => (
             <article key={job.role}>
-              <div className="flex items-baseline justify-between gap-2">
-                <h3 className="text-[12.5px] font-semibold text-black">
+              <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-0.5 sm:gap-2">
+                <h3 className="text-[12px] sm:text-[12.5px] font-semibold text-black">
                   {job.role}
                 </h3>
                 <span className="text-[10.5px] text-black/50 shrink-0">
@@ -55,7 +55,7 @@ export function CvMain() {
         <h2 className="text-[13px] font-bold uppercase tracking-widest text-black mb-3 border-b border-black/10 pb-1">
           {languages.title}
         </h2>
-        <div className="flex gap-6">
+        <div className="flex flex-wrap gap-x-6 gap-y-1">
           {languages.items.map((item) => (
             <span key={item.name}>
               {item.name}{" "}

@@ -10,31 +10,31 @@ export function CvHeader() {
 
   return (
     <header className="border-b border-black/10 pb-5 mb-0">
-      <div className="flex items-end justify-between gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 sm:gap-4">
         <div>
-          <h1 className="text-[32px] font-bold tracking-tight text-black leading-none">
+          <h1 className="text-[26px] sm:text-[30px] md:text-[32px] font-bold tracking-tight text-black leading-none">
             {header.name}
           </h1>
-          <p className="text-[14px] text-black/60 mt-1.5 font-medium">
+          <p className="text-[13px] sm:text-[14px] text-black/60 mt-1.5 font-medium">
             {header.subtitle}
           </p>
         </div>
         <a
           href="https://claudiapalazon.com"
-          className="flex items-center gap-1.5 text-[12px] font-semibold text-black bg-black/5 px-3 py-1.5 rounded-full hover:bg-black/10 transition-colors shrink-0 print:bg-black/5"
+          className="flex items-center gap-1.5 text-[11px] sm:text-[12px] font-semibold text-black bg-black/5 px-3 py-1.5 rounded-full hover:bg-black/10 transition-colors shrink-0 print:bg-black/5 w-fit"
         >
-          <Globe className="w-3.5 h-3.5" />
-          claudiapalazon.com
+          <Globe className="w-3.5 h-3.5 shrink-0" />
+          <span className="truncate">claudiapalazon.com</span>
         </a>
       </div>
-      <div className="flex flex-wrap items-center gap-x-5 gap-y-1.5 mt-4 text-[11px] text-black/70">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 sm:gap-x-5 sm:gap-y-1.5 mt-4 text-[10.5px] sm:text-[11px] text-black/70">
         <span className="flex items-center gap-1.5">
           <Phone className="w-3.5 h-3.5" />
           +34 646 388 776
         </span>
         <span className="flex items-center gap-1.5">
           <Mail className="w-3.5 h-3.5" />
-          claupanon@gmail.com
+          hola@claudiapalazon.com
         </span>
         <a
           href="https://github.com/claudiapalazon"

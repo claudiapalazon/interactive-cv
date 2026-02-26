@@ -8,9 +8,9 @@ export function CvSidebar() {
   const { sidebar } = cvContent[locale];
 
   return (
-    <aside className="space-y-5 text-[11.5px] leading-[1.6] text-black">
+    <aside className="space-y-5 text-[11px] sm:text-[11.5px] leading-[1.6] text-black">
       <section>
-        <h2 className="text-[13px] font-bold uppercase tracking-widest text-black mb-2 border-b border-black/10 pb-1">
+        <h2 className="text-[12px] sm:text-[13px] font-bold uppercase tracking-widest text-black mb-2 border-b border-black/10 pb-1">
           {sidebar.profile.title}
         </h2>
         <p className="text-black/80">{sidebar.profile.text}</p>
