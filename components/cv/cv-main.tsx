@@ -41,7 +41,7 @@ export function CvMain() {
         </h2>
         <div className="space-y-2">
           {education.items.map((item) => (
-            <div key={item.name}>
+            <div key={item.name} className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-0.5 sm:gap-2">
               <h3 className="text-[12px] font-semibold text-black">
                 {item.name}
               </h3>

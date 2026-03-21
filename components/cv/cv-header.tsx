@@ -34,7 +34,7 @@ export function CvHeader() {
         </span>
         <span className="flex items-center gap-1.5">
           <Mail className="w-3.5 h-3.5" />
-          hola@claudiapalazon.com
+          claupanon@gmail.com
         </span>
         <a
           href="https://github.com/claudiapalazon"

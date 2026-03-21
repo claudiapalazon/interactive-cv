@@ -4,13 +4,12 @@ export const cvContent = {
   es: {
     header: {
       name: "Claudia Palazón",
-      subtitle: "Desarrolladora FrontEnd",
+      subtitle: "Frontend Engineer",
     },
     sidebar: {
       profile: {
         title: "Perfil",
-        text: "Desarrolladora FrontEnd con +4 años de experiencia y background en Diseño UX/UI. Especialista en crear interfaces pixel-perfect y escalables, con una alta capacidad de adaptación a arquitecturas diversas. Mi enfoque combina Clean Code, accesibilidad e IA para optimizar el desarrollo de productos digitales de alto impacto.",
-      },
+        text: "Frontend Engineer con +4 años de experiencia desarrollando aplicaciones web escalables. Enfocada en experiencia de usuario, accesibilidad y calidad de código, combinando background en UX/UI con tecnologías modernas. Experiencia en interfaces orientadas a datos y gestión de estados dinámicos en entornos de producto.",      },
       core: { title: "Core", items: ["JavaScript (ES6+)", "TypeScript", "HTML5, CSS3, SASS"] },
       frameworks: {
         title: "Frameworks & Components",
@@ -18,7 +17,7 @@ export const cvContent = {
       },
       aiTools: {
         title: "AI & Tools",
-        items: ["GitHub Copilot", "LLMs for dev", "Git / GitHub", "Agile (Scrum / Kanban)"],
+        items: ["GitHub Copilot", "Cursor", "Git / GitHub", "Agile (Scrum / Kanban)"],
       },
       designUx: {
         title: "Design & UX",
@@ -31,39 +30,41 @@ export const cvContent = {
         title: "Experiencia Laboral",
         jobs: [
           {
-            role: "Desarrolladora FrontEnd | BBVA Technology",
+            role: "Frontend Engineer | BBVA Technology",
             period: "2025 — Actualidad",
             bullets: [
-              "Desarrollo de componentes y funcionalidades para banca digital garantizando estándares de pixel-perfect y accesibilidad web (WCAG).",
-              "Implementación de arquitecturas basadas en Cells y Web Components (LitElement).",
-              "Optimización de flujos de trabajo y calidad de código mediante IA aplicada al desarrollo.",
-              "Colaboración activa en entornos Agile para la entrega continua de valor en productos financieros.",
+              "Desarrollo y mantenimiento de arquitectura de componentes escalables utilizando Web Components (LitElement) y Cells.",
+              "Implementación de interfaces accesibles (WCAG) y de alto rendimiento para productos de banca digital.",
+              "Trabajo en entornos de gran escala colaborando con equipos multidisciplinares en productos complejos.",
+              "Desarrollo de funcionalidades con foco en experiencia de usuario y consistencia entre plataformas.",
+              "Optimización de flujos de desarrollo y calidad de código mediante herramientas de IA (Copilot).",
             ],
           },
           {
-            role: "Desarrolladora Web | Harbiz (antes DudyFit)",
+            role: "Frontend & Mobile Developer | Harbiz (antes DudyFit)",
             period: "2021 — 2025",
             bullets: [
-              "Desarrollo FrontEnd y Mobile (React Native) para una plataforma de alto tráfico en el sector fitness.",
-              "Implementación de interfaces complejas manteniendo la integridad total del diseño original y la usabilidad.",
-              "Mantenimiento y escalabilidad de features utilizando React, Meteor JS, MongoDB y SASS.",
-              "Consultoría técnica con el equipo de producto para definir la viabilidad de nuevos sistemas de diseño.",
+              "Desarrollo de interfaces complejas para una plataforma de alto tráfico en web y mobile (React y React Native).",
+              "Gestión de interfaces orientadas a datos, integrando APIs y manejando estados dinámicos de aplicación.",
+              "Escalabilidad y mantenimiento de features utilizando React, Meteor JS, MongoDB y SASS.",
+              "Colaboración con el equipo de producto para definir soluciones de UX y viabilidad técnica.",
+              "Optimización de rendimiento y mejora de la experiencia de usuario en múltiples flujos críticos.",
             ],
           },
           {
             role: "Diseñadora Gráfica & Digital | Ayuntamiento de Madrid",
             period: "2021",
             bullets: [
-              "Diseño y maquetación de activos digitales para campañas institucionales de gran alcance.",
-              "Adaptación de creatividades para soportes web y físicos, asegurando coherencia visual de marca.",
+              "Diseño de activos digitales para campañas institucionales de gran alcance.",
+              "Asegurar coherencia visual de marca en soportes digitales y físicos.",
             ],
           },
           {
             role: "Diseñadora UX/UI | MyPlazze (Minty Host)",
             period: "2017 — 2019",
             bullets: [
-              "Diseño integral de la experiencia de usuario (UX) e interfaz (UI) para App móvil y Dashboard.",
-              "Creación de flujos de navegación intuitivos y prototipado interactivo de alta fidelidad.",
+              "Diseño end-to-end de experiencia de usuario e interfaz para app móvil y dashboard.",
+              "Creación de flujos de navegación y prototipos interactivos de alta fidelidad.",
             ],
           },
         ],
@@ -71,8 +72,8 @@ export const cvContent = {
       education: {
         title: "Educación",
         items: [
-          { name: "Máster FrontEnd Development", place: "Lemoncode" },
-          { name: "Bootcamp Desarrollo Front End", place: "Adalab" },
+          { name: "Máster Frontend Development", place: "Lemoncode" },
+          { name: "Bootcamp Desarrollo Frontend", place: "Adalab" },
           { name: "Escuela 42", place: "Telefónica" },
           { name: "Grado en Diseño Integral y Gestión de la Imagen", place: "URJC" },
         ],
@@ -81,22 +82,22 @@ export const cvContent = {
         title: "Idiomas",
         items: [
           { name: "Español", level: "Nativo" },
-          { name: "Inglés", level: "Avanzado" },
+          { name: "Inglés", level: "Profesional (Working Proficiency)" },
           { name: "Francés", level: "Básico" },
         ],
       },
     },
   },
+
   en: {
     header: {
       name: "Claudia Palazón",
-      subtitle: "FrontEnd Developer",
+      subtitle: "Frontend Engineer",
     },
     sidebar: {
       profile: {
         title: "Profile",
-        text: "FrontEnd Developer with +4 years of experience and a background in UX/UI Design. Specialist in creating pixel-perfect, scalable interfaces with strong adaptability to diverse architectures. My approach combines Clean Code, accessibility, and AI to optimize the development of high-impact digital products.",
-      },
+        text: "Frontend Engineer with 4+ years of experience building scalable web applications. Focused on user experience, accessibility and code quality, combining a UX/UI background with modern frontend technologies. Experienced in data-driven interfaces and dynamic state management in product environments.",      },
       core: { title: "Core", items: ["JavaScript (ES6+)", "TypeScript", "HTML5, CSS3, SASS"] },
       frameworks: {
         title: "Frameworks & Components",
@@ -104,7 +105,7 @@ export const cvContent = {
       },
       aiTools: {
         title: "AI & Tools",
-        items: ["GitHub Copilot", "LLMs for dev", "Git / GitHub", "Agile (Scrum / Kanban)"],
+        items: ["GitHub Copilot", "Cursor", "Git / GitHub", "Agile (Scrum / Kanban)"],
       },
       designUx: {
         title: "Design & UX",
@@ -117,39 +118,41 @@ export const cvContent = {
         title: "Work Experience",
         jobs: [
           {
-            role: "FrontEnd Developer | BBVA Technology",
+            role: "Frontend Engineer | BBVA Technology",
             period: "2025 — Present",
             bullets: [
-              "Development of components and features for digital banking ensuring pixel-perfect standards and web accessibility (WCAG).",
-              "Implementation of architectures based on Cells and Web Components (LitElement).",
-              "Optimization of workflows and code quality through AI applied to development.",
-              "Active collaboration in Agile environments for continuous delivery of value in financial products.",
+              "Developed and maintained scalable component architecture using Web Components (LitElement) and Cells.",
+              "Built accessible (WCAG-compliant) and high-performance interfaces for digital banking products.",
+              "Worked in large-scale environments collaborating with cross-functional teams on complex products.",
+              "Delivered features with strong focus on user experience and cross-platform consistency.",
+              "Improved development workflows and code quality using AI tools (Copilot).",
             ],
           },
           {
-            role: "Web Developer | Harbiz (formerly DudyFit)",
+            role: "Frontend & Mobile Developer | Harbiz (formerly DudyFit)",
             period: "2021 — 2025",
             bullets: [
-              "FrontEnd and Mobile development (React Native) for a high-traffic platform in the fitness sector.",
-              "Implementation of complex interfaces maintaining full design integrity and usability.",
-              "Maintenance and scalability of features using React, Meteor JS, MongoDB and SASS.",
-              "Technical consulting with the product team to define the feasibility of new design systems.",
+              "Developed complex UI features for a high-traffic platform across web and mobile (React & React Native).",
+              "Built data-driven interfaces integrating APIs and managing dynamic application state.",
+              "Ensured scalability and maintainability using React, Meteor JS, MongoDB and SASS.",
+              "Collaborated with product teams to define UX solutions and technical feasibility.",
+              "Optimized performance and improved user experience across key user flows.",
             ],
           },
           {
             role: "Graphic & Digital Designer | Madrid City Council",
             period: "2021",
             bullets: [
-              "Design and layout of digital assets for large-scale institutional campaigns.",
-              "Adaptation of creatives for web and print media, ensuring brand visual consistency.",
+              "Designed digital assets for large-scale institutional campaigns.",
+              "Ensured brand consistency across digital and print media.",
             ],
           },
           {
             role: "UX/UI Designer | MyPlazze (Minty Host)",
             period: "2017 — 2019",
             bullets: [
-              "End-to-end design of user experience (UX) and interface (UI) for mobile App and Dashboard.",
-              "Creation of intuitive navigation flows and high-fidelity interactive prototyping.",
+              "Designed end-to-end user experience and interface for mobile apps and dashboards.",
+              "Created navigation flows and high-fidelity interactive prototypes.",
             ],
           },
         ],
@@ -157,8 +160,8 @@ export const cvContent = {
       education: {
         title: "Education",
         items: [
-          { name: "Master FrontEnd Development", place: "Lemoncode" },
-          { name: "Front End Development Bootcamp", place: "Adalab" },
+          { name: "Master in Frontend Development", place: "Lemoncode" },
+          { name: "Frontend Development Bootcamp", place: "Adalab" },
           { name: "School 42", place: "Telefónica" },
           { name: "Degree in Integral Design and Image Management", place: "URJC" },
         ],
@@ -167,7 +170,7 @@ export const cvContent = {
         title: "Languages",
         items: [
           { name: "Spanish", level: "Native" },
-          { name: "English", level: "Advanced" },
+          { name: "English", level: "Professional Working Proficiency" },
           { name: "French", level: "Basic" },
         ],
       },
